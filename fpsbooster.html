@@ -2,9 +2,9 @@
 <html>
   <head>
     <script>
-      document.getElementById("main").value = "Please wait as we are boosting your FPS...\nFlyLondon API"
+      document.getElementById("main").innerHTML = "Please wait as we are boosting your FPS...\nFlyLondon API"
       await(5)
-      document.getElementById("main").value = "Your FPS has now been boosted. You will automatically be redirected to the main page...\nFlyLondon API"
+      document.getElementById("main").innerHTML = "Your FPS has now been boosted. You will automatically be redirected to the main page...\nFlyLondon API"
       await(3)
       location.replace("index")
     </script>
